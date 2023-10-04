@@ -1,5 +1,5 @@
 import * as request from 'supertest';
-import { AppTest } from './app-test';
+import { AppTest } from '../app-test';
 
 describe('AppController (e2e)', () => {
   it('/ (GET)', () => {
